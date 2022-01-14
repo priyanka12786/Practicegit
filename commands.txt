@@ -1,0 +1,119 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+E:\python_git\Practicegit>git log
+commit 859c913406ce1b670223f774efa4a10bf3e22b97 (HEAD)
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 18:00:05 2022 +0530
+
+    Learn
+
+commit 57da011f138106aafd93da3c8e8fd807eb97f9d6
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 17:35:41 2022 +0530
+
+    Commit
+
+commit bd3213645666b18cae9d39b6320f145b829b4788
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 16:53:16 2022 +0530
+
+    third commit
+
+commit 4a3918ede09478bec1df5417b892f140eb4cd7e4
+Author: ujala <ujala30amb@gmail.com>
+Date:   Thu Jan 13 16:20:20 2022 +0530
+
+    File A is changed by Ujala
+
+commit e0c3190b9608147b89283480845a48e63dbfdf6c
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 16:06:56 2022 +0530
+
+
+E:\python_git\Practicegit>git checkout -b xxxbbb  bd3213645666b18cae9d39b6320f145b829b4788
+Previous HEAD position was 859c913 Learn
+Switched to a new branch 'xxxbbb'
+
+E:\python_git\Practicegit>git branch
+  main
+* xxxbbb
+
+E:\python_git\Practicegit>git show  bd3213645666b18cae9d39b6320f145b829b4788
+commit bd3213645666b18cae9d39b6320f145b829b4788 (HEAD -> xxxbbb)
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 16:53:16 2022 +0530
+
+    third commit
+
+diff --git a/B.txt b/B.txt
+index 8bde45b..d32c53d 100644
+--- a/B.txt
++++ b/B.txt
+@@ -1 +1,3 @@
+ Hello Guys,This Is Priyanka
++
++It's a great experience while learning GIT.
+
+E:\python_git\Practicegit>git log
+commit bd3213645666b18cae9d39b6320f145b829b4788 (HEAD -> xxxbbb)
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 16:53:16 2022 +0530
+
+    third commit
+
+commit 4a3918ede09478bec1df5417b892f140eb4cd7e4
+Author: ujala <ujala30amb@gmail.com>
+Date:   Thu Jan 13 16:20:20 2022 +0530
+
+    File A is changed by Ujala
+
+commit e0c3190b9608147b89283480845a48e63dbfdf6c
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 16:06:56 2022 +0530
+
+    First Commit
+
+commit 07af6b4c217c48ebe282c2b3485dfc07b1a84eb1
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 16:04:17 2022 +0530
+
+    First Commit
+
+E:\python_git\Practicegit>git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+E:\python_git\Practicegit>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+E:\python_git\Practicegit>git log
+commit 3ccd8d5ad8f96e2616665f026366dd67fd2ee97f (HEAD -> main, origin/main, origin/HEAD)
+Author: ujala <ujala30amb@gmail.com>
+Date:   Thu Jan 13 18:23:32 2022 +0530
+
+    c.txt is changed
+
+commit e56b01c715f67ca7389aa9c85176d5042de70aa0
+Merge: 859c913 c3c72c8
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 18:14:54 2022 +0530
+
+    New changes
+
+commit 859c913406ce1b670223f774efa4a10bf3e22b97
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 18:00:05 2022 +0530
+
+    Learn
+
+commit c3c72c868eb17572011f0d32f6c495a454b5474d
+Author: ujala <ujala30amb@gmail.com>
+Date:   Thu Jan 13 17:54:07 2022 +0530
+
+    D.txt is changed
+
+commit 57da011f138106aafd93da3c8e8fd807eb97f9d6
+Author: Priyanka <mail.priyankaaher@gmail.com>
+Date:   Thu Jan 13 17:35:41 2022 +0530
+
+E:\python_git\Practicegit>
